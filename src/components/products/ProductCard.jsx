@@ -1,12 +1,11 @@
 import React from 'react'
-import { Link, useNavigate } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 const ProductCard = ({product, onCart, index, updateCart}) => {
-  const navigate = useNavigate()
 
   return (
     <div style={styles.productWrapper}>
-        <img src={product.img_url} style={styles.productImage}/>
+        <img src={product.img_url} style={styles.productImage} alt={product.item_name}/>
         <div>
             <h2>{product.item_name}</h2>
             <Link to={`/product-page/${product.item_id}`} state={{product}}>
