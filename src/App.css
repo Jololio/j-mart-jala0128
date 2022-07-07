@@ -1,0 +1,86 @@
+.App {
+    padding-top: 20px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 28px;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 24px;
+    margin: 12px 0px 8px 0px;
+}
+
+h3 {
+    font-weight: 400;
+    font-size: 22px;
+}
+
+p {
+    font-weight: 300;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.header {
+    position: fixed;
+    display: flex;
+    top: 0;
+    left: 0;
+    height: 80px;
+    background-color: lightslategray;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.header h2 {
+    margin-right: 10px;
+}
+
+.h2-div {
+    display: flex;
+}
+
+.products_wrapper {
+    margin-top: 40px;
+}
+
+button {
+    height: 44px;
+    min-width: 100px;
+    background: transparent;
+    border: 2px solid #4183C3;
+    color: #4183C3;
+    font-size: 22px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.searchbar input {
+    height: 44px;
+    width: 250px;
+    font-size: 20px;
+}
+
+.searchbar {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+}
+
+.cart-product-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 15px;
+}
+
+.page {
+    margin-top: 80px !important;
+}
